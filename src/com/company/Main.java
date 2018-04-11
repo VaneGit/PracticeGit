@@ -20,12 +20,13 @@ public class Main {
         do {
             System.out.println("Enter the option you want");
             System.out.println("1 .Register data of the animal   ");
-            System.out.println("2 .Show animals given an ID  ");
+            System.out.println("2 .Show animals by ID  ");
             System.out.println("3 .Remove animal given an ID ");
             System.out.println("4 .Show all animals ");
             System.out.println("5 .Show animals by type");
             System.out.println("6 .Show reflection given an ID");
-            System.out.println("7 .Exit");
+            System.out.println("7 .Update animal given an ID");
+            System.out.println("8 .Exit");
 
             opcion = scanner.nextInt();
             scanner.nextLine();
@@ -57,8 +58,10 @@ public class Main {
                     break;
                 case 7:
                     break;
+                case 8:
+                    break;
                 default:
-                    opcion = 7;
+                    opcion = 8;
                     break;
 
             }
