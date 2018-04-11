@@ -1,5 +1,7 @@
 *.xml
 *.vml
+*.mf
 #Ignoring all folder from IDE
 .idea/
  out/
+nbproject/
