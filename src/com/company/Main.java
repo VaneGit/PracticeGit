@@ -26,7 +26,7 @@ public class Main {
             System.out.println("5 .Show animals by type");
             System.out.println("6 .Show reflection given an ID");
             System.out.println("7 .Update animal given an ID");
-            System.out.println("8 .Exit para salir");
+            System.out.println("8 .Exit");
 
             opcion = scanner.nextInt();
             scanner.nextLine();
