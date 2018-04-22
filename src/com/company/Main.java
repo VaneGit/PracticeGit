@@ -11,7 +11,10 @@ public class Main {
         veterinary.add(cat);
         veterinary.add(dog);
         veterinary.add(parrot);
-        menu(veterinary);
+        //menu(veterinary);
+        Main hola= new Main();
+        hola.contador();
+        
     }
     public static void menu(Veterinary veterinary){
         Scanner scanner = new Scanner(System.in);
@@ -32,7 +35,7 @@ public class Main {
             scanner.nextLine();
             switch (opcion){
                 case 1:
-
+                    System.out.println("hola estas aqui");
                     break;
                 case 2:
 
@@ -79,5 +82,13 @@ public class Main {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
+    }
+    /*prueba del do while*/
+    public void  contador(){
+        int contador=0;
+        do{
+            System.out.println("contando"+(contador+1));
+            contador+=1;
+        }while(contador<10);
     }
 }
